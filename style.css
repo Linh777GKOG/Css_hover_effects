@@ -45,3 +45,21 @@ body {
 .container:hover .box:nth-child(3) {
   transform: translateX(0);
 }
+
+.container .box::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: var(--clr);
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover::before {
+  width: 100%;
+}
+
+.container .box .content {
+  position: relative;
+  display: flex;
+}
