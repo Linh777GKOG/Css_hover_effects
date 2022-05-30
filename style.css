@@ -76,4 +76,26 @@ body {
 
 .container .box .content .icon ion-icon {
   font-size: 2.5em;
+  color: var(--clr);
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .icon ion-icon {
+  color: #fff;
+}
+
+.container .box .content .text h3 {
+  font-weight: 500;
+  color: var(--clr);
+  transition: 0.5s ease-in-out;
+}
+.container .box .content .text p {
+  font-size: 0.9em;
+  transition: 0.5s ease-in-out;
+  color: #999;
+}
+
+.container .box:hover .content .text h3,
+.container .box:hover .content .text p {
+  color: #fff;
 }
