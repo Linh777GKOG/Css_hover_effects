@@ -12,4 +12,20 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container .box {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  cursor: pointer;
 }
